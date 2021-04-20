@@ -2,7 +2,7 @@
 
 Complete phasing using Hi-C data is sometimes difficult owing to the low genetic divergence between haplotypes. For example, ALLHiC might group homologous contigs into a big cluster (Fig. 1a). Although these contigs could be further adjusted manually, the placement of small contigs is always boring and time-consuming (Fig. 1b).
 
-![Fig1](https://github.com/zengxiaofei/small-contig-repartition/blob/master/figs/Fig1.jpg)
+![Fig1](https://github.com/zengxiaofei/small-contig-reassignment/blob/master/figs/Fig1.jpg)
 
 ## Aim & Strategy
 
@@ -10,7 +10,7 @@ Here is a simple strategy to reassign these small contigs after manual grouping 
 
 This strategy may also have the poteintial for general global refinement.
 
-![Fig2](https://github.com/zengxiaofei/small-contig-repartition/blob/master/figs/Fig2.jpg)
+![Fig2](https://github.com/zengxiaofei/small-contig-reassignment/blob/master/figs/Fig2.jpg)
 
 ## Result
 
