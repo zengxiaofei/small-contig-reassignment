@@ -1,20 +1,24 @@
 ## Background
 
-Complete phasing using Hi-C data is sometimes difficult owing to the low genetic divergence between haplotypes. For example, ALLHiC might group homologous contigs into a big cluster (Fig. 1a). Although these contigs could be further adjusted manually, the placement of small contigs is always boring and time-consuming (Fig. 1b).
+Complete phasing using Hi-C data is sometimes difficult owing to the low genetic divergence between haplotypes. For example, ALLHiC might group homologous contigs into a big cluster (**Fig. 1a**). Although these contigs could be further adjusted manually, the placement of small contigs is always boring and time-consuming (**Fig. 1b**).
 
 ![Fig1](./figs/Fig1.jpg)
 
+**Figure 1**
+
 ## Aim & Strategy
 
-Here is a simple strategy to reassign these small contigs after manual grouping (see Fig. 2a): (1) just remove small contigs using ` remove_small_contigs.py` provided in this repo; (2) run `ALLHiC_rescue` to rescue removed contigs (reassignment); (3) run `allhic optimize` to determine the ordering and orientation.
+Here is a simple strategy to reassign these small contigs after manual grouping (see **Fig. 2a**): **(1)** just remove small contigs using ` remove_small_contigs.py` provided in this repo; **(2)** run `ALLHiC_rescue` to rescue removed contigs (reassignment); **(3)** run `allhic optimize` to determine the ordering and orientation.
 
 This strategy may also have the poteintial for general global refinement.
 
 ![Fig2](./figs/Fig2.jpg)
 
+**Figure 2**
+
 ## Result
 
-As shown in Fig. 1c, after running this pipeline, further manual work is dramatically reduced.
+As shown in **Fig. 1c**, after running this pipeline, further manual work is dramatically reduced.
 
 ## Usage of `remove_small_contigs.py`
 
