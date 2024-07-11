@@ -1,3 +1,6 @@
+
+## !!Attention: This repository is now outdated since we have integrated this function into our latest scaffolding tool - [HapHiC](https://github.com/zengxiaofei/HapHiC). HapHiC achieves chromosome-level scaffolding of haplotype-phased assemblies without relying on reference genomes. We encourage you to experiment with it.
+
 ## Background
 
 Complete phasing using Hi-C data is sometimes difficult owing to the low genetic divergence between haplotypes. For example, ALLHiC might group homologous contigs into a big cluster (**Fig. 1a**). Although these contigs could be further adjusted manually, the placement of small contigs is always boring and time-consuming (**Fig. 1b**).
